@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<title>Webdev Portfolio</title>
+
+		<!-- Bootstrap CSS CDN -->
+	    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+	     <!-- Bootstrap Icons -->
+	    <link rel="stylesheet"href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+
+	    <!-- Google Fonts -->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+	    <!-- External CSS -->
+	    <link rel="stylesheet" type="text/css" href="./index.css">
+	</head>
+
+<body>
+	<!-- Navbar -->
+	<nav class="navbar navbar-expand-lg navbar-light">
+		<div class="container-fluid px-5">
+			<a class="navbar-brand" href="#">
+				
+			</a>
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarNav">
+				<ul class="navbar-nav ms-auto gap-4">
+					<li class="nav-item">
+						<a class="nav-link" href="#landing">HOME</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#about">ABOUT ME</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#tools">SKILLS</a>
+					</li>
+					<a id="landing-button" class="d-inline-block text-white text-decoration-none" href="#projects">Portfolio</a>
+				
+					<li class="nav-item">
+						<a class="nav-link" href="#contact">CONTACT</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+	<!-- Main -->
+	<main class="container">
+		<!-- Landing -->
+		<section id="landing" class="row justify-content-center justify-content-lg-start align-items-center p-5">
+			<div class="col-12 col-lg-6 order-2 order-lg-1">
+				<div class="container">
+					<h1 id="landing-title" class="text-dark">Hi, I'm AJ</h1>
+
+					<p id="landing-text" class="text-dark">Full Stack Web Developer</p>
+					<p id="landing-paragraph" class="text-dark">Crafting intuitive, fast, and scalable digital experiences with clean code and modern interface design. Focused on architecting delightful software from concept to deployment.</p>
+
+					<a id="landing-button" class="d-inline-block text-white text-decoration-none mb-4" href="#about">Hire Me</a>
+				</div>
+			</div>
+			<div class="col-12 col-lg-6 order-1 order-lg-2 text-end py-5">
+				<img 
+				src="./images/pic.jpeg"
+				alt="Profile picture"
+				class="img-fluid w-50 rounded-circle"
+				/>
+			</div>
+
+						<!-- Contact Cards -->
+			    <div class="col-12 order-3">
+			        <div class="landing-links d-flex flex-column flex-md-row justify-content-center gap-3">
+
+			            <!-- GitHub -->
+			            <a href="#" class="landing-card">
+
+			                <div class="landing-icon github-icon">
+			                    <i class="bi bi-github"></i>
+			                </div>
+
+			                <div class="landing-card-content">
+			                    <span class="landing-label">
+			                        Code Repositories
+			                    </span>
+
+			                    <span class="landing-title">
+			                        GitHub
+			                    </span>
+			                </div>
+
+			                <i class="bi bi-chevron-right landing-arrow"></i>
+
+			            </a>
+
+
+		            <!-- LinkedIn -->
+		            <a href="#" class="landing-card">
+
+		                <div class="landing-icon linkedin-icon">
+		                    <i class="bi bi-linkedin"></i>
+		                </div>
+
+		                <div class="landing-card-content">
+		                    <span class="landing-label">
+		                        Professional Network
+		                    </span>
+
+		                    <span class="landing-title">
+		                        LinkedIn
+		                    </span>
+		                </div>
+
+		                <i class="bi bi-chevron-right landing-arrow"></i>
+
+		            </a>
+
+
+		            <!-- Email -->
+		            <a href="#" class="landing-card">
+
+		                <div class="landing-icon email-icon">
+		                    <i class="bi bi-envelope"></i>
+		                </div>
+
+		                <div class="landing-card-content">
+		                    <span class="landing-label">
+		                        Direct Inquiries
+		                    </span>
+
+		                    <span class="landing-title">
+		                        Email AJ
+		                    </span>
+		                </div>
+
+		                <i class="bi bi-chevron-right landing-arrow"></i>
+
+		            </a>
+
+		        </div>
+
+		    </div>
+		</section>
+
+		<!-- About Me-->
+		<section id="about" class="row justify-content-center p-5">
+			<div class="col-sm-3 text-end py-5">
+				<img 
+				src="./images/pic.jpeg"
+				alt="Profile picture"
+				class="img-fluid w-75 rounded-circle"
+				/>
+			</div>
+
+			<div class="col-sm-7 about-content py-5 mt-5">
+				<h3 class="mb-4">Hi! I'm AJ.</h3>
+
+				<p class="mb-4">
+					I'm a curious and motivated learner with a background in Mathematics and Computer Science. I have an interest in technology, problem-solving, and web development.
+				</p>
+
+				<p>
+					I am currently developing my skills in HTML, CSS, JavaScript, and Git, while exploring how to build clean, responsive, and user-friendly websites. I enjoy learning new technologies, working on projects, and turning ideas into practical digital experiences. My goal is to continuously improve my skills and grow as a web developer and technology professional.
+
+				</p>
+			</div>
+		</section>
+
+		<!-- Projects-->
+		<section id="projects" class="row p-2">
+			<div class="container text-center d-flex flex-column gap-3 mb-5">
+				<h3 class="title">Projects</h3>
+				<p class="desc">Explore my projects showcasing my skills in web development, API documentation, UI/UX design, and application development. Each project represents an opportunity to learn, build, and apply new technologies.</p>
+			</div>
+
+
+			<!-- Project 1 Starts -->
+			<div class="col-12 col-md-6 col-lg-4 mb-5"> <div class="projects-container h-100 p-2 bg-white shadow rounded"> 
+				<div class="text-start">
+				<img 
+				src="./images/proj1.jpeg"
+				alt="Project1"
+				class="img-fluid w-50"
+				/>
+				<h4 class="projects-header mb-4">E-commerce API Documentation</h4>
+
+					<p class="projects-desc">Dynamic E-Commerce Workflow Management. The system features dynamic routes for order processing, real-time inventory updates, and secure user authentication. It also supports seamless automated order l reporting and comprehensive product management. Documented Backend API published publicly using Postman.</p>	
+				</div>
+
+				</div>
+			</div>
+			<!-- Project 1 End -->
+
+			<!-- Project 2 Start -->
+			<div class="col-12 col-md-6 col-lg-4 mb-5"> <div class="projects-container h-100 p-2 bg-white shadow rounded">
+				<div class="text-start">
+				<img 
+				src="./images/proj2.jpeg"
+				alt="Project2"
+				class="w-100"
+				/>
+				<h4 class="projects-header mb-4">Course Booking API Documentation</h4>
+
+					<p class="projects-desc">RESTful API for managing course enrollments, featuring user registration, authentication, and retrieval of user details. Supports course creation, updates, archiving, activation, and student enrollment. Publicly documented using Postman.</p>
+
+				</div>
+
+				</div>
+			</div>
+			<!-- Project 2 End -->
+
+			<!-- Project 3 Start -->
+			<div class="col-12 col-md-6 col-lg-4 mb-5"> 
+				<div class="projects-container h-100 p-2 bg-white shadow rounded">
+				<div class="text-start">
+					<img 
+				src="./images/proj3.jpeg"
+				alt="Project3"
+				class="img-fluid w-50"
+				/>
+					<h4 class="projects-header mb-4">Course booking App</h4>
+
+					<p class="projects-desc">A MERN-stack course enrollment system featuring user registration, authentication, and profile management. Authenticated users can create, update, archive, and activate courses. The platform also allows users to browse available courses and enroll seamlessly.</p>	
+
+				</div>
+
+					</div>
+				</div>
+			</div>
+			<!-- Project 3 End -->
+
+			<!-- Project 4 Start -->
+			<div class="col-12 col-md-6 col-lg-4 mb-5">
+				<div class="projects-container h-100 p-2 bg-white shadow rounded">
+				<div class="text-start">
+					<img 
+					src="./images/proj4.jpeg"
+					alt="Project4"
+					class="img-fluid w-50"
+					/>
+					<h4 class="projects-header mb-4">E-commerce App</h4>
+
+					<p class="projects-desc">MERN E-Commerce Platform. The platform features dynamic product catalog with filtering and sorting, l real-time search, seamless cart updates, secure checkout, and a comprehensive admin dashboard with real-time analytics and user management capabilities.</p>	
+
+				</div>
+
+				</div>
+			</div>
+			<!-- Project 4 End -->
+
+			<!-- Project 5 Start -->
+			<div class="col-12 col-md-6 col-lg-4 mb-5">
+				<div class="projects-container h-100 p-2 bg-white shadow rounded">
+				<div class="text-start">
+				<img 
+				src="./images/proj5.jpeg"
+				alt="Project5"
+				class="img-fluid w-50"
+				/>
+					<h4 class="projects-header mb-4">Airline Booking System Mockup</h4>
+
+					<p class="projects-desc">MSide Project: Conceptual design showcasing an intuitive Ul for flight search, seat selection, and booking confirmation, focusing on user experience and workflow efficiency.</p>	
+
+
+				</div>
+
+
+				</div>
+			</div>
+			<!-- Project 5 End -->
+
+			<!-- Project 6 Start -->
+			<div class="col-12 col-md-6 col-lg-4 mb-5">
+				<div class="projects-container h-100 p-2 bg-white shadow rounded">
+				<div class="text-start">
+					<img 
+					src="./images/proj6.jpeg"
+					alt="Project6"
+					class="img-fluid w-50"
+					/>
+					<h4 class="projects-header mb-4">Airline Booking System Prototype</h4>
+
+					<p class="projects-desc">MSide Project: Interactive prototype simulating end-to-end airline booking functionalities, including flight search, reservation, payment processing, and real-time ticket management.</p>	
+				</div>
+
+				</div>
+			</div>
+			<!-- Project 6 End -->
+
+			<!-- Short Courses Capstone -->
+			<h3 class="title p-3" >Short Courses Capstone</h3>
+			<div class="col-12 col-md-6 col-lg-4 mb-5">
+				<div class="projects-container h-100 p-2 bg-white shadow rounded">
+				<div class="text-start">
+					<img 
+					src="./images/cap1.jpeg"
+					alt="Capstone1"
+					class="img-fluid w-50"
+					/>
+					<h4 class="projects-header mb-4">Short Course Capstone</h4>
+
+					<p class="projects-desc">Placeholder for your short courses capstone project.</p>	
+				</div>
+				</div>
+			</div>
+			<!-- Short Course 1 end -->
+
+			<!-- Short Course 2 start -->
+			<div class="col-12 col-md-6 col-lg-4 mb-5">
+				<div class="projects-container h-100 p-2 bg-white shadow rounded">
+				<div class="text-start">
+					<img 
+					src="./images/cap2.jpeg"
+					alt="Capstone1"
+					class="img-fluid w-50"
+					/>
+					<h4 class="projects-header mb-4">Short Course Capstone</h4>
+
+					<p class="projects-desc">Placeholder for your short courses capstone project.</p>	
+				</div>
+				</div>
+			</div>
+			<!-- Short Course 2 end -->
+
+			<!-- Short Course 3 start -->
+			<div class="col-12 col-md-6 col-lg-4 mb-5">
+				<div class="projects-container h-100 p-2 bg-white shadow rounded">
+				<div class="text-start">
+					<img 
+					src="./images/cap3.jpeg"
+					alt="Capstone1"
+					class="img-fluid w-50"
+					/>
+					<h4 class="projects-header mb-4">Short Course Capstone</h4>
+
+					<p class="projects-desc">Placeholder for your short courses capstone project.</p>	
+				</div>
+				</div>
+			</div>
+			<!-- Short Course 3 end -->
+
+		</section>
+
+
+
+		<!-- Tools -->
+		<section id="tools" class="row justify-content-center text-start py-5">
+			<div class="col-12 col-md-8 col-lg-6">
+				<!--  TOOLS -->
+				<div class="mb-5">
+					<p class="mb-5 pb-4">SKILLS</p>
+					<div>
+
+					<p class="text-start">Using Now:</p>
+					<div>
+						<img class="img-fluid m-3 p-1" src="./images/bootstrap.jpeg">
+						<img class="img-fluid m-3 p-1" src="./images/CSS.jpg">
+						<img class="img-fluid m-3 p-1" src="./images/GIT.jpg">
+						<img class="img-fluid m-3 p-1" src="./images/HTML.jpg">
+						<img class="img-fluid m-3 p-1" src="./images/Sublime.jpg">
+					</div>
+
+
+					<p class="text-start">Learning:</p>
+					<div>
+						<img class="img-fluid m-3 p-1" src="./images/JS.png">
+						<img class="img-fluid m-3 p-1" src="./images/mongo.png">
+						<img class="img-fluid m-3 p-1" src="./images/python.png">
+					</div>
+
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- Contact -->
+		<section id="contact" class="row p-5">
+			<div class="col-md-5 p-5">
+				<img
+				src="./images/pic.jpeg"
+				class="img-fluid w-25 object-fit-cover"
+				alt="contact"
+				>
+
+				<p id="contact-paragraph" class="mb-3 fw-bold" > STAY CONNECTED </p>
+				<p id="contact-paragraph" class="mb-3 fw-bold"> Let's work Together! </p>
+				<p id="contact-paragraph" class="mb-3"> Call Me: +639271345656 </p>
+				<p id="contact-paragraph" class="mb-3"> Email: ajaaaaang13@gmail.com </p>
+
+			</div>
+
+			<div class="col-md-7 p-5" id="contact-form">
+				<h2 id="contact-title" class="mb-5">Contact Me</h2>
+
+				<p id="contact-paragraph" class="mb-5"> Have a project in mind? Let's work together! I'd love to hear from you!  </p>
+
+				<form> 
+					<div class="row">
+
+					<!-- Name --> 
+						<div class="col-md-6 mb-4">
+						<label for="name" class="contact-label mb-2"> Name </label> 
+						<input type="text" class="form-control contact-form" id="name" placeholder="Your Name">
+					</div>
+
+					<!-- Email --> 
+					<div class="col-md-6 mb-4">
+						<label for="email" class="contact-label mb-2"> Email </label> 
+						<input type="email" class="form-control contact-form" id="email" placeholder="Email"> 
+					</div>
+
+					<!-- Mobile --> 
+					
+					<div class="col-md-6 mb-4">
+						<label for="number" class="contact-label mb-2"> Number </label> 
+						<input type="tel" class="form-control contact-form" id="number" placeholder="Mobile Number"> 
+					</div>
+
+					<!-- Company --> 
+					<div class="col-md-6 mb-4">
+						<label for="company" class="contact-label mb-2"> Company </label> 
+						<input type="text" class="form-control contact-form" id="company" placeholder="Company"> 
+					</div>
+
+					<!-- Message --> 
+					<div class="mb-5">
+						<label for="message" class="contact-label mb-2"> Message </label>
+						<textarea class="form-control contact-form" rows="5" placeholder="Message"></textarea>
+					</div>
+
+					    <!-- Submit -->
+					<div class="text-end">
+						
+					<button id="contact-button" type="submit" class="btn text-white rounded-pill px-4 py-2"> Submit </button>
+					</div>
+				</form>
+			</div>
+			
+		</section>
+	</main>
+
+	<!-- Footer --> 
+	<footer id="footer" class="container-fluid text-white p-3 mt-4"> 
+		<div class="text-center"> 
+			<p class="mt-1">2026 AJ Portfolio | All rights reserved.</p> 
+
+			<!-- Footer Navigation --> 
+			<nav>
+
+				<a href="#about" class="text-white me-3">Home</a>
+				<a href="#about" class="text-white me-3">About Me</a>
+				<a href="#tools" class="text-white me-3">Skills</a>
+				<a href="#projects" class="text-white">Portfolio</a>
+			</nav>
+		</div>
+
+	</footer>
+
+	<!-- Bootstrap JS Script -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>

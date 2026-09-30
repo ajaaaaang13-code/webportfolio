@@ -1,0 +1,419 @@
+ /*Landing*/
+
+body {
+	background: #EFF6FF !important;
+}
+
+nav .nav-link {
+	font-family: Montserrat;
+	font-weight: 500;
+	font-style: Medium;
+	font-size: 18px;
+	leading-trim: NONE;
+	line-height: 100%;
+	letter-spacing: 0%;
+	text-align: center;
+
+	color: #47556 !important;
+}
+
+#landing {
+	padding-bottom: 20%;
+	background: #C7D2FE;
+
+	background-size: cover;
+}
+
+#landing-title {
+	font-family: Montserrat;
+	font-weight: 600;
+	font-style: SemiBold;
+	font-size: 64px;
+	leading-trim: NONE;
+	line-height: 72px;
+	letter-spacing: -2%;
+	vertical-align: bottom;
+}
+
+#landing-paragraph {
+	font-family: Montserrat;
+	font-weight: 400;
+	padding-bottom: 2rem;
+	font-style: Regular;
+	font-size: 24px;
+	leading-trim: NONE;
+	line-height: 30px;
+	letter-spacing: 0%;
+}
+
+#landing-button {
+	width: 180;
+	height: 48;
+	angle: 0 deg;
+	opacity: 1;
+	gap: 8px;
+	border-radius: 999px;
+	padding-top: 12px;
+	padding-right: 32px;
+	padding-bottom: 12px;
+	padding-left: 32px;
+
+	background: #4F46E5;
+
+	font-family: Montserrat;
+	font-weight: 600;
+	font-size: 20px;
+	leading-trim: NONE;
+	line-height: 24px;
+	letter-spacing: 0px;
+	text-align: center;
+}
+
+
+
+/*About*/
+
+#about {
+	min-height: 75vh;
+}
+
+#about .about-content h3 {
+	font-family: Montserrat;
+	font-weight: 600;
+	font-style: SemiBold;
+	font-size: 40px;
+	leading-trim: NONE;
+	line-height: 100%;
+	letter-spacing: 0%;
+
+	color: #1E3A8A;
+}
+
+#about .about-content p {
+	font-family: Montserrat;
+	font-weight: 400;
+	font-style: Regular;
+	font-size: 24px;
+	leading-trim: NONE;
+	line-height: 100%;
+	letter-spacing: 0%;
+
+	color: #475569;
+}
+
+
+/*Projects*/
+.title {
+	font-family:  Montserrat;
+	font-weight: 600;
+	font-style: SemiBold;
+	font-size: 40px;
+	leading-trim: NONE;
+	line-height: 100%;
+	letter-spacing: 0%;
+	text-align: center;
+	vertical-align: bottom;
+	color: #1E3A8A;
+}
+
+.desc {
+	font-family: Montserrat;
+	font-weight: 400;
+	font-style: Regular;
+	font-size: 24px;
+	leading-trim: NONE;
+	line-height: 100%;
+	letter-spacing: 0%;
+	text-align: center;
+	color: #475569;
+}
+
+#projects .projects-container {
+	background-color: #DBEAFE !important;
+}
+
+#projects .projects-container:hover {
+	background-color: #60A5FA !important;
+	transform: translateY(-5px);
+}
+
+
+.projects-header {
+	font-family: Montserrat;
+	font-weight: 600;
+	font-style: SemiBold;
+	font-size: 32px;
+	leading-trim: NONE;
+	line-height: 100%;
+	letter-spacing: 0%;
+	vertical-align: bottom;
+	color: #1E3A8A;
+}
+
+.projects-desc {
+	font-family: Montserrat;
+	font-weight: 400;
+	font-style: Regular;
+	font-size: 20px;
+	leading-trim: NONE;
+	line-height: 100%;
+	letter-spacing: 0%;
+	color: #475569;
+}
+
+#projects img{
+	height: 100% !important;
+	width: 100% !important;
+}
+
+#landing-button {
+	width: 180;
+	height: 48;
+	angle: 0 deg;
+	opacity: 1;
+	gap: 8px;
+	border-radius: 999px;
+	padding-top: 12px;
+	padding-right: 32px;
+	padding-bottom: 12px;
+	padding-left: 32px;
+
+	background: #4F46E5;
+
+	font-family: Montserrat;
+	font-weight: 600;
+	font-size: 20px;
+	leading-trim: NONE;
+	line-height: 24px;
+	letter-spacing: 0px;
+	text-align: center;
+}
+
+
+ /*Tools*/
+#tools p{
+	font-family: Montserrat;
+	font-weight: 600;
+	font-style: SemiBold;
+	font-size: clamp(1.5rem, 4vw, 2.5rem);
+	leading-trim: NONE;
+	line-height: 100%;
+	letter-spacing: 0%;
+	text-align: center;
+	vertical-align: bottom;
+	color: #1E3A8A;
+
+}
+
+#tools img{
+	width: 15% !important;
+	height: 15% !important;
+
+}
+
+/*Contact */
+#contact {
+    padding: 60px 40px !important;
+}
+
+ /*Left side */
+#contact img {
+    width: 120px !important;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 30px;
+}
+
+.contact-paragraph {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+/*Contact title*/
+#contact-title {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+/* Form labels */
+.contact-label {
+    display: block;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+/* Form inputs */
+.contact-input {
+    padding: 12px 15px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+}
+
+/* Input focus */
+.contact-input:focus {
+    border-color: #000;
+    box-shadow: none;
+}
+
+/* Submit button */
+#contact-button {
+    background-color: #000;
+    border: none;
+    font-weight: 600;
+}
+
+/* Submit button hover */
+#contact-button:hover {
+    background-color: #333;
+}
+
+
+/* Footer */ 
+#footer { 
+background-color: #1D4ED8; 
+color: white; 
+text-align: center; 
+padding: 20px 20px; 
+margin-top: 50px; 
+}
+
+/* Footer text */ 
+#footer p { 
+	margin-bottom: 15px; 
+	font-size: 14px; 
+}
+
+/* Footer navigation links */ 
+#footer nav a { 
+	color: white; text-decoration: none; 
+	margin: 0 12px; 
+	font-size: 16px; 
+	transition: color 0.3s ease; 
+}
+
+
+/* Hover effect */ 
+#footer nav a:hover { 
+	color: #60a5fa; 
+	text-decoration: underline; 
+}
+
+/* Mobile */ 
+@media (max-width: 576px) { 
+	#footer nav a { 
+		display: block; 
+		margin: 8px 0; 
+	} 
+}
+
+
+/* Card */
+
+.landing-card {
+    display: flex;
+    align-items: center;
+    padding: 14px 18px;
+    background-color: white;
+    border: 1px solid #dce3ed;
+    border-radius: 12px;
+    text-decoration: none;
+    box-shadow: 0 2px 5px rgba(30, 50, 80, 0.08);
+    transition: all 0.2s ease;
+}
+
+
+/* Hover */
+
+.landing-card:hover {
+    transform: translateY(-2px);
+
+    border-color: #c8d5e6;
+
+    box-shadow: 0 5px 12px rgba(30, 50, 80, 0.12);
+}
+
+
+/* Icon */
+
+.landing-icon {
+    width: 42px;
+    height: 42px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 9px;
+
+    font-size: 20px;
+
+    flex-shrink: 0;
+}
+
+
+/* GitHub */
+
+.github-icon {
+    background-color: #f1f5f9;
+    color: #26364a;
+}
+
+
+/* LinkedIn */
+
+.linkedin-icon {
+    background-color: #edf5ff;
+    color: #0a66c2;
+}
+
+
+/* Email */
+
+.email-icon {
+    background-color: #f0f2ff;
+    color: #4338ca;
+}
+
+
+/* Card Text */
+
+.landing-card-content {
+    display: flex;
+    flex-direction: column;
+
+    margin-left: 13px;
+}
+
+
+.landing-label {
+    font-family: monospace;
+
+    font-size: 13px;
+
+    color: #657794;
+
+    letter-spacing: 0.5px;
+
+    margin-bottom: 5px;
+}
+
+
+.landing-title {
+    font-size: 15px;
+
+    font-weight: 600;
+
+    color: #17233c;
+}
+
+
+/* Arrow */
+
+.landing-arrow {
+    margin-left: auto;
+
+    font-size: 14px;
+
+    color: #8da0ba;
+}
